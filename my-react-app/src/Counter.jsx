@@ -3,6 +3,7 @@ function Counter() {
     const [count, setCount] = useState(0);
     return (
         <div>
+            <h3 style={{color:"red"}}> Un simple compteur </h3>
             <p>Count: {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment</button>
         </div>
